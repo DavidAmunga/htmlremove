@@ -10,5 +10,13 @@
     "plain texts"
   ],
   "author": "davidamunga",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:DavidAmunga/htmlremove.git",
+    "directory": "packages/htmlremove"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
