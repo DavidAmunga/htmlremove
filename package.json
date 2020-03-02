@@ -1,10 +1,14 @@
 {
   "name": "htmlremove",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes HTML tags from html string to return plain text",
   "main": "index.js",
-  
-  "keywords": ["html","strip","tags","plain texts"],
+  "keywords": [
+    "html",
+    "strip",
+    "tags",
+    "plain texts"
+  ],
   "author": "davidamunga",
   "license": "MIT"
 }

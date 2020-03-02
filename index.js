@@ -6,8 +6,8 @@ var htmlRemove = (htmlString) => {
   var div = window.document.createElement("div"),
     text = "";
   div.innerHTML = htmlString;
-  text = _div.textContent.trim();
-  text = _text.replace(/\</g, "&lt;").replace(/\>/g, "&gt;");
+  text = div.textContent.trim();
+  text = text.replace(/\</g, "&lt;").replace(/\>/g, "&gt;");
   return text;
 }
 
