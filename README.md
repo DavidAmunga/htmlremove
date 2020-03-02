@@ -9,11 +9,14 @@ yarn install htmlremove
 
 
 ## Usage
-var htmlremove = require('htmlremove);
+
+```js
+var htmlremove = require('htmlremove');
 
 
-var html = " <div> May the force be with <a href="#">you</a>. I love <strong>Batman</strong> ";
+let html = " <div> May the force be with <a href="#">you</a>. I love <strong>Batman</strong> ";
 
 html = htmlremove(html);
 
 //output 'May the force be with you. I love Batman'
+```
