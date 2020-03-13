@@ -8,6 +8,6 @@ const htmlRemove = (htmlString : string) : string => {
 
 }
 
-htmlRemove("<p>May the <asdas>asdasda </asdas> force be with you <a href=\"undefined\" class=\"wysiwyg-mention\" data-mention data-value=\"tenant.firstName\">@tenant.firstName</a>  And Awesomeness</p>")
+// htmlRemove("<p>May the <ha>asdasda </ha> force be with you <a href=\"#\" class=\"wysiwyg-mention\" data-mention data-value=\"firstName\">firstName</a></p>")
 
 export default htmlRemove;
