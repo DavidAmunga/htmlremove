@@ -9,10 +9,22 @@
     "tags",
     "plain texts"
   ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
   "author": "davidamunga",
   "license": "MIT",
   "repository": "github:DavidAmunga/htmlremove",
   "devDependencies": {
     "typescript": "^3.8.3"
-  }
+  },
+  "dependencies": {
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "files": [
+    "lib /**/*"
+  ]
 }
