@@ -1,6 +1,6 @@
 {
   "name": "htmlremove",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Removes HTML tags from html string to return plain text",
   "main": "index.js",
   "keywords": [
@@ -11,11 +11,7 @@
   ],
   "author": "davidamunga",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:DavidAmunga/htmlremove.git",
-    "directory": "packages/htmlremove"
-  },
+  "repository": "github:DavidAmunga/htmlremove",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
