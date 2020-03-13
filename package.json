@@ -11,8 +11,5 @@
   ],
   "author": "davidamunga",
   "license": "MIT",
-  "repository": "github:DavidAmunga/htmlremove",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "repository": "github:DavidAmunga/htmlremove"
 }
