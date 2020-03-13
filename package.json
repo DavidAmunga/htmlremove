@@ -2,7 +2,7 @@
   "name": "htmlremove",
   "version": "2.0.2",
   "description": "Removes HTML tags from html string to return plain text",
-  "main": "index.js",
+  "main": "index.ts",
   "keywords": [
     "html",
     "strip",
