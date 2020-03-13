@@ -2,7 +2,7 @@
  * Removes tags from HTML
  * @param {htmlString}
  */
-const htmlRemove = (htmlString: string): string => {
+const htmlRemove = (htmlString : string) : string => {
   const newText = htmlString.replace(/(<\?[a-z]*(\s[^>]*)?\?(>|$)|<!\[[a-z]*\[|\]\]>|<!DOCTYPE[^>]*?(>|$)|<!--[\s\S]*?(-->|$)|<[a-z?!\/]([a-z0-9_:.])*(\s[^>]*)?(>|$))/gi, '');
   return newText;
 

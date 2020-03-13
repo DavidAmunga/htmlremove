@@ -1,6 +1,6 @@
 {
   "name": "htmlremove",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Removes HTML tags from html string to return plain text",
   "main": "index.ts",
   "keywords": [
@@ -11,5 +11,8 @@
   ],
   "author": "davidamunga",
   "license": "MIT",
-  "repository": "github:DavidAmunga/htmlremove"
+  "repository": "github:DavidAmunga/htmlremove",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
